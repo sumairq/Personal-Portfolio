@@ -168,6 +168,14 @@ margin: 24px 0px;
     margin: 20px;
   }
 
+  .overlap {
+    all: inherit;
+    transform: translateY(-263px);
+    z-index: 1;   
+    background-color: #fff;
+    border-radius: 10px;
+   } 
+
   .aboutme_text {
     font-style: normal;
     font-weight: normal;
