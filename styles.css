@@ -26,7 +26,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 0;
+    margin-bottom: 100px;
     padding-top: 60px;
   }
 
@@ -57,6 +57,14 @@ body {
     text-align: center;
   }
 
+  .text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+  }
+
   .hero ul {
     display: flex;
     width: 30%;
@@ -66,4 +74,161 @@ body {
     list-style: none;
     flex: 1;
   }
+
+  .projects_header {
+position: absolute;
+width: 327px;
+height: 200px;
+top: 100px;
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 52px;
+text-align: center;
+color: #172B4D;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+  } 
+
+ .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+#down_icon {
+  margin-top: 40px;
+}
+
+.grid_container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto auto auto;
+  padding-top: 75px;
+  justify-content: center;
+  }
+.flex_container_primary {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d0d9d4;
+  border-radius: 15px;
+  margin-bottom: 150px;
+  height: 474px;
+}
+
+  .flex_container_secondary {
+    padding: 50px;
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.flex_container_primary h3 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #3a4a42;
+}
+
+.flex_container_primary ul {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  justify-content: center;
+
+}
+
+  .flex_container_primary li {
+    flex: none;
+    list-style-type: none;
+    padding: 8px 12px;
+    margin: 0 8px;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #3a4a42;
+    background: #ebf0ee;
+  }
+  a.web_button {
+    background: #36b37f;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+    font-size: 17px;
+    align-self: center !important;
+    margin: 20px;
+  }
+
+  .aboutme_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #42526e;
+  }
+
+    .background_aboutme {
+      background-image: url(assets/images/aboutme1.svg), url(assets/images/aboutme2.svg);
+      background-position: left bottom, right top;
+      background-repeat: no-repeat, no-repeat;
+    }
+
+  .nested_flexbox {
+    background: #ebf0ee;
+    border-radius: 8px;
+    text-align: center;
+    list-style: none;
+    height: 352px;
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nested_flexbox ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nested_flexbox img {
+    order: -1;
+    padding-top: 20px;
+  }
+
+  .nested_flexbox h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #344563;
+  }
+
+  .nested_flexbox li {
+    flex: none;
+    list-style-type: none;
+    padding: 8px 12px;
+    margin: 8px;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    background: #fff;
+    color: #36b37e;
+  }
+}
+
+
+
