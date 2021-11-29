@@ -137,14 +137,13 @@ body {
   }
 
   .flex_container_primary ul {
-    display: flex;
     align-items: center;
     padding: 0;
     justify-content: center;
   }
 
   .flex_container_primary li {
-    flex: none;
+
     list-style-type: none;
     padding: 8px 12px;
     margin: 0 8px;
@@ -246,5 +245,3 @@ body {
     background: #fff;
     color: #36b37e;
   }
-/* }
-a little change  */
