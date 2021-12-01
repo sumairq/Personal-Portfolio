@@ -262,7 +262,7 @@ body {
     align-items: center;
   }
 
-  #contact-list > li > input,
+  #contact-list > input,
   textarea {
     width: 327px;
     border: 1px solid;
@@ -270,13 +270,13 @@ body {
     margin: 25px 0;
   }
 
-  #contact-list > li > input {
+  #contact-list > input {
     height: 48px;
     border: 1px solid #d0d9d4;
     border-radius: 4px;
   }
 
-  #contact-list > li > textarea {
+  #contact-list > textarea {
     height: 114px;
     border: 1px solid #60c095;
   }
