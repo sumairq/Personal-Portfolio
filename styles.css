@@ -2,7 +2,6 @@ body {
   font-family: 'Inter', Tahoma, sans-serif;
 }
 
-@media all and (max-width: 640px) {
   .toolbar {
     display: flex;
     padding-left: 24px;
@@ -22,40 +21,35 @@ body {
   .hero {
     background-image: url(assets/images/background_img.svg);
     background-size: 100%;
-    height: 90vh;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 0;
     padding-top: 60px;
   }
 
-  .box {
+  .hero-content {
     font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 52px;
-    text-align: center;
-  }
-
-  .box_1 {
-    color: #172b4d;
-    margin-bottom: 0;
-  }
-
-  .box_2 {
-    margin-top: 0;
-    color: #36b37e;
-  }
-
-  .box_3 {
+    font-weight: normal;
     font-size: 20px;
-    font-weight: 400;
-    font-style: normal;
     line-height: 28px;
-    color: #172b4d;
     text-align: center;
+    color: #172b4d;
   }
+
+.hero-heading {
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 60px;
+text-align: center;
+color: #172B4D;
+}
+
+.hero-heading span {
+  color: #36B37E;
+}
 
   .text {
     font-style: normal;
@@ -96,6 +90,26 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .aboutme_heading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #172b4d;
+    margin: 24px 0;
+  }
+
+  .works-heading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #172b4d;
+    margin: 24px 0;
   }
 
   #down_icon {
@@ -157,6 +171,16 @@ body {
     background: #ebf0ee;
   }
 
+  .aboutme-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #42526e;
+    margin-top: 40px;
+  }
+
   a.web_button {
     background: #36b37f;
     border-radius: 4px;
@@ -186,19 +210,31 @@ body {
     border-radius: 10px;
   }
 
-  .aboutme_text {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 32px;
-    text-align: center;
-    color: #42526e;
-  }
+.aboutme_text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+  margin-top: 40px;
+}
 
+.grid_container_aboutme {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto auto auto;
+  justify-content: center;
+}
   .background_aboutme {
     background-image: url(assets/images/aboutme1.svg), url(assets/images/aboutme2.svg);
     background-position: left bottom, right top;
     background-repeat: no-repeat, no-repeat;
+  }
+
+  .center_button {
+    width: fit-content;
+    justify-self: center;
   }
 
   .nested_flexbox {
@@ -255,6 +291,15 @@ body {
     background-repeat: no-repeat;
   }
 
+  .contact_heading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #172b4d;
+  }
+
   #contact-list {
     list-style: none;
     display: flex;
@@ -280,7 +325,17 @@ body {
     height: 114px;
     border: 1px solid #60c095;
   }
-
+  .footer_icon {
+    display: flex;
+    width: 70%;
+    padding-inline-start: 25px;
+    align-items: center;
+  }
+  
+  .footer_icon li {
+    list-style: none;
+    flex: 1;
+  }
   .form-button {
     background: #36b37f;
     border-radius: 4px;
@@ -323,4 +378,133 @@ body {
   #bottom-indicator {
     margin-top: 250px;
   }
-}
+
+  @media screen and (min-width: 1000px){
+    .toolbar {
+      display: none;
+    }
+
+    .background-desktop {
+      background-image: url(./assets/images/desktop/main-page-desktop-background.svg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      height: 130vh;
+    }
+    .hero {
+      background-image: none;
+    }
+   
+    .hero p {
+      width: 45%;
+    }
+
+    .hero ul {
+      width: 20%;
+      padding: 0;
+      margin: 20px 0 70px 0;
+    }
+  
+    .hero li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .flex_container_primary {
+      margin-bottom: 0;
+    }
+  
+    .flex_container_primary ul {
+      flex-wrap: wrap;
+    }
+  
+    .flex_container_primary li {
+      margin: 8px;
+    }
+
+    .grid_container {
+      grid-template-columns: auto auto auto;
+      grid-gap: 32px 24px;
+    }
+    .aboutme_text {
+      width: 50%;
+      display: flex;
+      justify-self: center;
+    }
+    .aboutme-text {
+      width: 50%;
+      display: flex;
+      justify-self: center;
+    }
+  
+    .background_aboutme {
+      background-image: url(./images/desktop/illustration-about-me-2-desktop.svg), url(./images/desktop/illustration-about\ me-1-desktop.svg);
+      background-repeat: no-repeat;
+    }
+  
+    .grid_container_aboutme {
+      padding: 0;
+    }
+  
+    .flex_container_secondary {
+      flex-direction: row;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+  
+    .nested_flexbox {
+      height: 382px;
+    }
+    .footer_icon {
+      display: flex;
+      width: 19%;
+      padding-inline-start: 25px;
+      align-items: center;
+    }
+  
+    .footer_icon li {
+      list-style: none;
+      flex: 1;
+    }
+    .contact_heading {
+      width: 30%;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: bold;
+      line-height: 52px;
+      text-align: center;
+      box-sizing: border-box;
+    }
+    footer {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      width: 100%;
+      margin: auto;
+      background-image: url(./assets/images/desktop/illustration-1-contact-form-desktop.svg), url(./images/desktop/contact\ form-illustratoin-3-desktop.svg), url(./images/desktop/illustration-2-contact-form-desktop.svg);
+      justify-content: center;
+      background-repeat: no-repeat;
+      background-position: left 75%, right 75%, 25% 60%;
+    }
+
+    footer form {
+      margin-top: 58px;
+      display: flex;
+      flex-direction: column;
+      align-items: initial;
+      width: 50%;
+    }
+
+    footer h4 {
+      display: none;
+    }
+  
+    footer hr {
+      width: 100%;
+      margin-top: 200px;
+      border-top: 1px solid lightgray;
+    }
+  }
