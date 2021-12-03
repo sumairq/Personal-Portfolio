@@ -10,16 +10,22 @@
 </head>
 
 <body>
-  <header class="toolbar">
-    <a href="#">Welcome</a>
-    <nav>
-      <a href="#" class="toggleToolbar"><img src="assets/images/toolbar.png" alt="Toolbar Icon"></a>
-    </nav>
-  </header>
-  <div class="background-desktop">
+
+  <div class="background_desktop">
+    <header class="navigation">
+      <a class="logo" href="#">Welcome</a>
+      <nav>
+        <a href="#" class="toolbar"><img src="assets/images/toolbar.png" alt="Toolbar Icon"></a>
+        <ul class="desktop_nav">
+          <li><a href="#recent-works">Portfolio</a></li>
+          <li><a href="#about-me">About</a></li>
+          <li><a href="#contact-info">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
     <section class="hero">
-      <h1 class="hero-heading">Hey there. I'm Sumair.<br> <span>I'm a software developer</span></h1>
-      <p class="hero-content">I can help you build a product, feature or website. Look through some of my work and
+      <h1 class="hero_head">Hey there. I'm Sumair.<br> <span>I'm a software developer</span></h1>
+      <p class="hero_content">I can help you build a product, feature or website. Look through some of my work and
         experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
       </p>
       <ul class="web_button">
@@ -34,7 +40,7 @@
     </section>
   </div>
   <header>
-    <h2 id="recent-works" class="works-heading">My Recent Works </h2>
+    <h2 id="recent-works" class="works_head">My Recent Works </h2>
     <img class="center" src="assets/images/Indicator.png" alt="Design line">
 
   </header>
@@ -86,7 +92,7 @@
 
   </section>
   <header class="background_aboutme">
-    <h2 id="about-me" class="aboutme_heading">About me</h2>
+    <h2 id="about-me" class="aboutme_head">About me</h2>
     <section class="grid_container_aboutme">
       <h3 class="aboutme_text">I can help you build a product ,feature or website. Look through some of my
         work and experience! If you like what you see and have a project you need coded, don’t hesitate to
@@ -133,30 +139,25 @@
 
   </section>
   <footer>
-    <h3 id="contact_info" class="contact_heading">I'm always interested in hearing about new projects, so if you'd like
+    <h3 id="contact-info" class="contact_head">I'm always interested in hearing about new projects, so if you'd like
       to chat please get in touch.</h3>
-    <section id="contact-form">
-      <form id="contact-list" action="https://formspree.io/f/meqnjpgd" method="post">
+    <form action="https://formspree.io/f/meqnjpgd" method="post">
 
-        <input type="text" maxlength="30" name="full_name" placeholder="Full name" required>
-        <input type="email" placeholder="Email address" name="email_address" required>
-        <textarea name="message" maxlength="500" placeholder="Enter text here" required></textarea>
-        <button class="form-button" type="submit">Get in touch</button>
-      </form>
-      <div class="links center">
-        <hr>
-        <ul class="footer_icon">
-          <li><a href="https://twitter.com/sumair_qaisar"><img src="assets/images/social_media/twitter.svg"
-                alt="Twitter icon"></a></li>
-          <li><a href="https://linkedin.com/in/sumair-qaisar-jadoon-84a877164"><img
-                src="assets/images/social_media/linkedin.svg" alt="Linkedin icon"></a></li>
-          <li><a href="https://github.com/sumairq"><img src="assets/images/social_media/github.svg"
-                alt="Github icon"></a></li>
-        </ul>
-      </div>
-      <h4>sumairqaisar992@gmail.com</h4>
-    </section>
-    <img class="center" id="bottom-indicator" src="assets/images/Shape.png" alt="Bottom Design line">
+      <input type="text" maxlength="30" name="full_name" placeholder="Full name" required>
+      <input type="email" placeholder="Email address" name="email_address" required>
+      <textarea name="message" maxlength="500" placeholder="Enter text here" required></textarea>
+      <button class="form_button" type="submit">Get in touch</button>
+    </form>
+    <hr>
+    <ul class="footer_icon">
+      <li><a href="https://twitter.com/sumair_qaisar"><img src="assets/images/social_media/twitter.svg"
+            alt="Twitter icon"></a></li>
+      <li><a href="https://linkedin.com/in/sumair-qaisar-jadoon-84a877164"><img
+            src="assets/images/social_media/linkedin.svg" alt="Linkedin icon"></a></li>
+      <li><a href="https://github.com/sumairq"><img src="assets/images/social_media/github.svg" alt="Github icon"></a>
+      </li>
+    </ul>
+    <h4>sumairqaisar992@gmail.com</h4>
   </footer>
 
 </body>
