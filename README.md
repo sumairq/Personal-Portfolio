@@ -25,7 +25,7 @@ Just go ahead and clone the repository using the following link.
 - Twitter: [@sumair_qaisar](https://twitter.com/sumair_qaisar)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/sumair-qaisar-jadoon-84a877164)
 
-👤 **Lisandro Seia **
+👤 **Lisandro Seia**
 
 - GitHub: [@lisandroseia](https://github.com/lisandroseia)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/lisandro-seia-295120225/)
