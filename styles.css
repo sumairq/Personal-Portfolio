@@ -2,6 +2,10 @@ body {
   font-family: 'Inter', Tahoma, sans-serif;
 }
 
+*{
+  scroll-behavior: smooth;
+}
+
 .navigation {
   display: flex;
   padding-left: 24px;
@@ -433,8 +437,12 @@ footer h4 {
     text-decoration: none;
     color: #344563;
     font-size: 15px;
+    transition: all 250ms ease-out 0ms ;
   }
-
+  .desktop_nav a:hover {
+    font-weight: bold;
+    font-size: 20px;
+  }
   .hero {
     background-image: none;
   }
