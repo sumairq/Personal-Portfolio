@@ -461,6 +461,12 @@ footer h4 {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 500ms ease-in 0ms;
+    position: relative;
+  }
+
+  .hero li:hover {
+   bottom: 3px;
   }
 
   .flex_container_primary {
