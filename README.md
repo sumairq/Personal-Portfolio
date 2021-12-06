@@ -4,6 +4,10 @@
 
 > This is my personal portfolio website, meant to showcase my skills as a software developer.
 
+## Live Server
+You can view the live version using this link :
+[Personal Portfolio](https://sumairq.github.io/Personal-Portfolio/)
+
 ![screenshot](./assets/images/screenshot.png)
 
 ## Built With
