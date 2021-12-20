@@ -3,7 +3,6 @@ const LOGO = document.querySelector('#logo');
 const COLLAPSE = document.querySelector('#collapse');
 const LIST_ITEM = document.querySelectorAll('#collapse li');
 
-
 ICON.addEventListener('click', () => {
   COLLAPSE.classList.toggle('nav_collapse');
   ICON.classList.add('nav_collapse');
