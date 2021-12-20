@@ -6,20 +6,39 @@ body {
   scroll-behavior: smooth;
 }
 
-.navigation {
-  display: flex;
-  padding-left: 24px;
-  padding-right: 35px;
+.nav_collapse {
+  display: none;
 }
 
-.navigation a {
-  flex: 1;
+nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  height: 100vh;
+  width: 100%;
+  padding: 3rem 0 0 0;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: white;
+  z-index: 2;
+}
+
+nav ul a {
   font-style: normal;
-  color: #28352f;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 28px;
-  text-decoration: none;
+  font-size: 32px;
+  line-height: 44px;
+  color: #3a4a42;
+  display: flex;
+  margin: 20px;
+}
+
+#closebtn {
+  align-self: flex-end;
+  margin-right: 2rem;
 }
 
 .hero {
@@ -405,6 +424,55 @@ footer h4 {
 }
 
 @media screen and (min-width: 1000px) {
+
+  #icon {
+    display: none;
+  }
+
+  #logo {
+    display: none;
+  }
+
+  .nav_collapse {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    background: none;
+  }
+
+  #closebtn {
+    display: none;
+  }
+
+  nav ul img {
+    display: none;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    height: auto;
+    position: initial;
+    background: none;
+    overflow: initial;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  nav ul a {
+    margin: 26px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 20px;
+    text-decoration: none;
+    color: #344563;
+    font-size: 15px;
+    transition-property: font-size, color;
+    transition-duration: 1s, 1s;
+    transition-delay: 0s, 0s;
+  }
+
   .toolbar {
     display: none;
   }
@@ -426,6 +494,9 @@ footer h4 {
     justify-content: center;
   }
 
+  .tool_nav {
+    display: none;
+  }
   .desktop_nav {
     display: flex;
     list-style: none;
