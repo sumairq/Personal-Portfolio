@@ -3,14 +3,14 @@
 
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VEWPWDWMSM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VEWPWDWMSM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-VEWPWDWMSM');
-</script>
+    gtag('config', 'G-VEWPWDWMSM');
+  </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sumair's Portfolio</title>
@@ -24,12 +24,15 @@
     <header class="navigation">
       <a class="logo" href="#">Welcome</a>
       <nav>
-        <a href="#" class="toolbar"><img src="assets/images/toolbar.png" alt="Toolbar Icon"></a>
-        <ul class="desktop_nav">
+        <ul class="nav_collapse" id="collapse">
+          <li id="closebtn"><img src="./assets/images/close.png" alt="close button"></li>
           <li><a href="#recent-works">Portfolio</a></li>
           <li><a href="#about-me">About</a></li>
           <li><a href="#contact-info">Contact</a></li>
         </ul>
+        <label id="icon">
+          <img src="./assets/images/toolbar.png" alt="Toolbar Icon">
+        </label>
       </nav>
     </header>
     <section class="hero">
@@ -208,6 +211,7 @@
     <h4>sumairqaisar992@gmail.com</h4>
   </footer>
 
+  <script src="./index.js"></script>
 </body>
 
 </html>
