@@ -1,5 +1,7 @@
 const ICON = document.querySelector('#icon');
 const LOGO = document.querySelector('#logo');
+const COLLAPSE = document.querySelector('#collapse');
+const LIST_ITEM = document.querySelectorAll('#collapse li');
 
 
 ICON.addEventListener('click', () => {
