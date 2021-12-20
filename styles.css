@@ -424,7 +424,6 @@ footer h4 {
 }
 
 @media screen and (min-width: 1000px) {
-
   #icon {
     display: none;
   }
@@ -497,6 +496,7 @@ footer h4 {
   .tool_nav {
     display: none;
   }
+
   .desktop_nav {
     display: flex;
     list-style: none;
