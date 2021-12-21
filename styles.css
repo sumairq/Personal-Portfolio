@@ -6,6 +6,22 @@ body {
   scroll-behavior: smooth;
 }
 
+.navigation {
+  display: flex;
+  padding-left: 24px;
+  padding-right: 35px;
+}
+
+.navigation a {
+  flex: 1;
+  font-style: normal;
+  color: #28352f;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration: none;
+}
+
 .nav_collapse {
   display: none;
 }
@@ -424,6 +440,7 @@ footer h4 {
 }
 
 @media screen and (min-width: 1000px) {
+
   #icon {
     display: none;
   }
@@ -496,7 +513,6 @@ footer h4 {
   .tool_nav {
     display: none;
   }
-
   .desktop_nav {
     display: flex;
     list-style: none;
