@@ -12,6 +12,16 @@ body {
   padding-right: 35px;
 }
 
+nav ul a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #3a4a42;
+  display: flex;
+  margin: 20px;
+}
+
 .navigation a {
   flex: 1;
   font-style: normal;
@@ -40,16 +50,6 @@ nav ul {
   overflow: hidden;
   background-color: white;
   z-index: 2;
-}
-
-nav ul a {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 44px;
-  color: #3a4a42;
-  display: flex;
-  margin: 20px;
 }
 
 #closebtn {
@@ -440,7 +440,6 @@ footer h4 {
 }
 
 @media screen and (min-width: 1000px) {
-
   #icon {
     display: none;
   }
@@ -513,6 +512,7 @@ footer h4 {
   .tool_nav {
     display: none;
   }
+
   .desktop_nav {
     display: flex;
     list-style: none;
