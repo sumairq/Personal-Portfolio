@@ -272,4 +272,8 @@ for (let i = 0; i < 6; i += 1) {
   
     popupBody.appendChild(popupListDesktop);
   }
+
+  function displayPopup(){
+    popupBody.addEventListener();
+  }
   
