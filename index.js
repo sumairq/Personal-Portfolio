@@ -132,7 +132,6 @@ const projects = [
 ];
 // for creation of elements required
 for (let i = 0; i < 6; i += 1) {
-    
   const EACH_PROJECT = document.createElement('div');
   EACH_PROJECT.classList.add('flex_container_primary');
 
@@ -182,7 +181,7 @@ for (let i = 0; i < 6; i += 1) {
   PROJECT_SECTION.appendChild(EACH_PROJECT);
 }
 
-for (let i = 1; i < 2; i += 1) { 
+for (let i = 1; i < 2; i += 1) {
   const BUTTON_LINK = document.querySelectorAll('#button-link');
   const POPUP_CONTAINER = document.querySelector('#popup_container');
 
