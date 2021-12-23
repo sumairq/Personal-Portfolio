@@ -356,3 +356,27 @@ for (let i = 1; i < 2; i += 1) {
 
   popupBody.appendChild(popupListDesktop);
 }
+
+const form = document.querySelector('form');
+const email = document.getElementById('email');
+const small = document.querySelector('small');
+
+form.addEventListener('submit', (event) => {
+  if (email.validity.valueMissing) {
+    small.innerHTML = 'You need to enter an e-mail address';
+    event.preventDefault();
+    small.classList.remove('collapse');
+  } else if (email.validity.typeMismatch) {
+    small.innerHTML = 'E-mail address needs to be valid (example@org.com)';
+    event.preventDefault();
+    small.classList.remove('collapse');
+  } else if (email.validity.patternMismatch) {
+    small.innerHTML = 'E-mail address needs to be in lower case';
+    event.preventDefault();
+    small.classList.remove('collapse');
+  }
+});
+
+email.addEventListener('click', () => {
+  small.classList.add('collapse');
+});
