@@ -58,89 +58,7 @@
   </header>
 
   <!-- main grid container -->
-  <section class="grid_container">
-    <!-- flexbox container   -->
-    <div class="flex_container_primary">
-      <img src="./assets/images/img-placeholder.png" alt="placeholder for project image">
-      <div class="overlap">
-        <h3>Multi-Post Stories<br>Gain + Glory</h3>
-        <ul>
-          <li>Ruby on rails</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>HTML</li>
-        </ul>
-        <a class="web_button center_button" href="#">See Project</a>
-      </div>
-    </div>
-    <div class="flex_container_primary">
-      <img src="./assets/images/img-placeholder.png" alt="placeholder for project image">
-      <div class="overlap">
-        <h3>Multi-Post Stories<br>Gain + Glory</h3>
-        <ul>
-          <li>Ruby on rails</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>HTML</li>
-        </ul>
-        <a class="web_button center_button" href="#">See Project</a>
-      </div>
-    </div>
-    <div class="flex_container_primary">
-      <img src="./assets/images/img-placeholder.png" alt="placeholder for project image">
-      <div class="overlap">
-        <h3>Multi-Post Stories<br>Gain + Glory</h3>
-        <ul>
-          <li>Ruby on rails</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>HTML</li>
-        </ul>
-        <a class="web_button center_button" href="#">See Project</a>
-      </div>
-    </div>
-    <div class="flex_container_primary">
-      <img src="./assets/images/img-placeholder.png" alt="placeholder for project image">
-      <div class="overlap">
-        <h3>Multi-Post Stories<br>Gain + Glory</h3>
-        <ul>
-          <li>Ruby on rails</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>HTML</li>
-        </ul>
-        <a class="web_button center_button" href="#">See Project</a>
-      </div>
-    </div>
-    <div class="flex_container_primary">
-      <img src="./assets/images/img-placeholder.png" alt="placeholder for project image">
-      <div class="overlap">
-        <h3>Multi-Post Stories<br>Gain + Glory</h3>
-        <ul>
-          <li>Ruby on rails</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>HTML</li>
-        </ul>
-        <a class="web_button center_button" href="#">See Project</a>
-      </div>
-    </div>
-    <div class="flex_container_primary">
-      <img src="./assets/images/img-placeholder.png" alt="placeholder for project image">
-      <div class="overlap">
-        <h3>Multi-Post Stories<br>Gain + Glory</h3>
-        <ul>
-          <li>Ruby on rails</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>HTML</li>
-        </ul>
-        <a class="web_button center_button" href="#">See Project</a>
-      </div>
-    </div>
-
-
-
+  <section id="project_section" class="grid_container">
   </section>
   <header class="background_aboutme">
     <h2 id="about-me" class="aboutme_head">About me</h2>
@@ -187,30 +105,29 @@
         </ul>
       </li>
     </ul>
+    <footer>
+      <h3 id="contact-info" class="contact_head">I'm always interested in hearing about new projects, so if you'd like
+        to chat please get in touch.</h3>
+      <form action="https://formspree.io/f/meqnjpgd" method="post">
 
+        <input type="text" maxlength="30" name="full_name" placeholder="Full name" required>
+        <input type="email" placeholder="Email address" name="email_address" required>
+        <textarea name="message" maxlength="500" placeholder="Enter text here" required></textarea>
+        <button class="form_button" type="submit">Get in touch</button>
+      </form>
+      <hr>
+      <ul class="footer_icon">
+        <li><a href="https://twitter.com/sumair_qaisar"><img src="assets/images/social_media/twitter.svg"
+              alt="Twitter icon"></a></li>
+        <li><a href="https://linkedin.com/in/sumair-qaisar-jadoon-84a877164"><img
+              src="assets/images/social_media/linkedin.svg" alt="Linkedin icon"></a></li>
+        <li><a href="https://github.com/sumairq"><img src="assets/images/social_media/github.svg" alt="Github icon"></a>
+        </li>
+      </ul>
+      <h4>sumairqaisar992@gmail.com</h4>
+    </footer>
   </section>
-  <footer>
-    <h3 id="contact-info" class="contact_head">I'm always interested in hearing about new projects, so if you'd like
-      to chat please get in touch.</h3>
-    <form action="https://formspree.io/f/meqnjpgd" method="post">
-
-      <input type="text" maxlength="30" name="full_name" placeholder="Full name" required>
-      <input type="email" placeholder="Email address" name="email_address" required>
-      <textarea name="message" maxlength="500" placeholder="Enter text here" required></textarea>
-      <button class="form_button" type="submit">Get in touch</button>
-    </form>
-    <hr>
-    <ul class="footer_icon">
-      <li><a href="https://twitter.com/sumair_qaisar"><img src="assets/images/social_media/twitter.svg"
-            alt="Twitter icon"></a></li>
-      <li><a href="https://linkedin.com/in/sumair-qaisar-jadoon-84a877164"><img
-            src="assets/images/social_media/linkedin.svg" alt="Linkedin icon"></a></li>
-      <li><a href="https://github.com/sumairq"><img src="assets/images/social_media/github.svg" alt="Github icon"></a>
-      </li>
-    </ul>
-    <h4>sumairqaisar992@gmail.com</h4>
-  </footer>
-
+  <section class="collapse" id="popup_container"></section>
   <script src="./index.js"></script>
 </body>
 
