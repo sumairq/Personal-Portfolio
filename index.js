@@ -34,9 +34,97 @@ const projects = [
     popupText: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     popupLngMobile: ['Ruby on rails', 'CSS', 'JavaScript'],
     popupLinks: ['See Live', 'See Source'],
+    popupImgDesktop: './assets/images/popup/mobile-img.png',
+    popupBtnCloseDesktop: './assets/images/popup/close-btn-desktop.png',
+    popupLngDesktop: ['Codekit', 'GitHub', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
   },
   {
-    popupImgDesktop: './assets/images/popup/desktop-img.png',
+    image: './assets/images/img-placeholder.png',
+    alternative: 'Placeholder',
+    title: 'Multi-Post Stories',
+    titleSpan: ' Gain + Glory',
+    href: '#',
+    languages: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
+    webButton: 'See Project',
+    popupImgMobile: './assets/images/popup/mobile-img.png',
+    popupBtnClose: './assets/images/popup/close-btn.png',
+    popupTitle: 'Keeping track of hundreds of components',
+    popupText: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    popupLngMobile: ['Ruby on rails', 'CSS', 'JavaScript'],
+    popupLinks: ['See Live', 'See Source'],
+    popupImgDesktop: './assets/images/popup/mobile-img.png',
+    popupBtnCloseDesktop: './assets/images/popup/close-btn-desktop.png',
+    popupLngDesktop: ['Codekit', 'GitHub', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
+  },
+  {
+    image: './assets/images/img-placeholder.png',
+    alternative: 'Placeholder',
+    title: 'Multi-Post Stories',
+    titleSpan: ' Gain + Glory',
+    href: '#',
+    languages: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
+    webButton: 'See Project',
+    popupImgMobile: './assets/images/popup/mobile-img.png',
+    popupBtnClose: './assets/images/popup/close-btn.png',
+    popupTitle: 'Keeping track of hundreds of components',
+    popupText: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    popupLngMobile: ['Ruby on rails', 'CSS', 'JavaScript'],
+    popupLinks: ['See Live', 'See Source'],
+    popupImgDesktop: './assets/images/popup/mobile-img.png',
+    popupBtnCloseDesktop: './assets/images/popup/close-btn-desktop.png',
+    popupLngDesktop: ['Codekit', 'GitHub', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
+  },
+  {
+    image: './assets/images/img-placeholder.png',
+    alternative: 'Placeholder',
+    title: 'Multi-Post Stories',
+    titleSpan: ' Gain + Glory',
+    href: '#',
+    languages: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
+    webButton: 'See Project',
+    popupImgMobile: './assets/images/popup/mobile-img.png',
+    popupBtnClose: './assets/images/popup/close-btn.png',
+    popupTitle: 'Keeping track of hundreds of components',
+    popupText: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    popupLngMobile: ['Ruby on rails', 'CSS', 'JavaScript'],
+    popupLinks: ['See Live', 'See Source'],
+    popupImgDesktop: './assets/images/popup/mobile-img.png',
+    popupBtnCloseDesktop: './assets/images/popup/close-btn-desktop.png',
+    popupLngDesktop: ['Codekit', 'GitHub', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
+  },
+  {
+    image: './assets/images/img-placeholder.png',
+    alternative: 'Placeholder',
+    title: 'Multi-Post Stories',
+    titleSpan: ' Gain + Glory',
+    href: '#',
+    languages: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
+    webButton: 'See Project',
+    popupImgMobile: './assets/images/popup/mobile-img.png',
+    popupBtnClose: './assets/images/popup/close-btn.png',
+    popupTitle: 'Keeping track of hundreds of components',
+    popupText: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    popupLngMobile: ['Ruby on rails', 'CSS', 'JavaScript'],
+    popupLinks: ['See Live', 'See Source'],
+    popupImgDesktop: './assets/images/popup/mobile-img.png',
+    popupBtnCloseDesktop: './assets/images/popup/close-btn-desktop.png',
+    popupLngDesktop: ['Codekit', 'GitHub', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
+  },
+  {
+    image: './assets/images/img-placeholder.png',
+    alternative: 'Placeholder',
+    title: 'Multi-Post Stories',
+    titleSpan: ' Gain + Glory',
+    href: '#',
+    languages: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
+    webButton: 'See Project',
+    popupImgMobile: './assets/images/popup/mobile-img.png',
+    popupBtnClose: './assets/images/popup/close-btn.png',
+    popupTitle: 'Keeping track of hundreds of components',
+    popupText: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    popupLngMobile: ['Ruby on rails', 'CSS', 'JavaScript'],
+    popupLinks: ['See Live', 'See Source'],
+    popupImgDesktop: './assets/images/popup/mobile-img.png',
     popupBtnCloseDesktop: './assets/images/popup/close-btn-desktop.png',
     popupLngDesktop: ['Codekit', 'GitHub', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
   },
@@ -44,40 +132,41 @@ const projects = [
 ];
 // for creation of elements required
 for (let i = 0; i < 6; i += 1) {
+    
   const EACH_PROJECT = document.createElement('div');
   EACH_PROJECT.classList.add('flex_container_primary');
 
   const img = document.createElement('img');
-  img.src = projects[0].image;
-  img.alt = projects[0].alternative;
+  img.src = projects[i].image;
+  img.alt = projects[i].alternative;
   img.classList.add('placehold');
 
   const h3 = document.createElement('h3');
-  h3.innerHTML = projects[0].title;
+  h3.innerHTML = projects[i].title;
 
   const breakLine = document.createElement('br');
 
   const h3Span = document.createElement('span');
-  h3Span.innerHTML = projects[0].titleSpan;
+  h3Span.innerHTML = projects[i].titleSpan;
 
   const unorderedList = document.createElement('ul');
 
   const listedItem1 = document.createElement('li');
-  listedItem1.innerHTML = [projects[0].languages[0]];
+  listedItem1.innerHTML = [projects[i].languages[0]];
 
   const listedItem2 = document.createElement('li');
-  listedItem2.innerHTML = [projects[0].languages[1]];
+  listedItem2.innerHTML = [projects[i].languages[1]];
 
   const listedItem3 = document.createElement('li');
-  listedItem3.innerHTML = [projects[0].languages[2]];
+  listedItem3.innerHTML = [projects[i].languages[2]];
 
   const listedItem4 = document.createElement('li');
-  listedItem4.innerHTML = [projects[0].languages[3]];
+  listedItem4.innerHTML = [projects[i].languages[3]];
 
   const button = document.createElement('a');
   button.classList.add('web_button', 'center_button');
-  button.href = projects[0].href;
-  button.innerHTML = projects[0].webButton;
+  button.href = projects[i].href;
+  button.innerHTML = projects[i].webButton;
   button.id = 'button-link';
 
   unorderedList.appendChild(listedItem1);
@@ -93,7 +182,7 @@ for (let i = 0; i < 6; i += 1) {
   PROJECT_SECTION.appendChild(EACH_PROJECT);
 }
 
-for (let i = 1; i < projects.length; i += 1) {
+for (let i = 1; i < 2; i += 1) { 
   const BUTTON_LINK = document.querySelectorAll('#button-link');
   const POPUP_CONTAINER = document.querySelector('#popup_container');
 
@@ -107,7 +196,7 @@ for (let i = 1; i < projects.length; i += 1) {
   popupImgMobile.classList.add('popup_img');
 
   const popupImgDesktop = document.createElement('img');
-  popupImgDesktop.src = projects[1].popupImgDesktop;
+  popupImgDesktop.src = projects[0].popupImgDesktop;
   popupImgDesktop.alt = 'Image for desktop popup';
   popupImgDesktop.classList.add('popup_img2');
 
@@ -119,7 +208,7 @@ for (let i = 1; i < projects.length; i += 1) {
   popupBtnClose.querySelector('#close');
 
   const popupBtnCloseDesktop = document.createElement('img');
-  popupBtnCloseDesktop.src = projects[1].popupBtnCloseDesktop;
+  popupBtnCloseDesktop.src = projects[0].popupBtnCloseDesktop;
   popupBtnCloseDesktop.classList.add('close_desktop');
   popupBtnCloseDesktop.id = 'close';
   popupBtnCloseDesktop.alt = 'Close button for popup';
@@ -242,22 +331,22 @@ for (let i = 1; i < projects.length; i += 1) {
   popupListDesktop.classList.add('ul_desktop');
 
   const popupListItem1Desktop = document.createElement('li');
-  popupListItem1Desktop.innerHTML = [projects[1].popupLngDesktop[0]];
+  popupListItem1Desktop.innerHTML = [projects[0].popupLngDesktop[0]];
 
   const popupListItem2Desktop = document.createElement('li');
-  popupListItem2Desktop.innerHTML = [projects[1].popupLngDesktop[1]];
+  popupListItem2Desktop.innerHTML = [projects[0].popupLngDesktop[1]];
 
   const popupListItem3Desktop = document.createElement('li');
-  popupListItem3Desktop.innerHTML = [projects[1].popupLngDesktop[2]];
+  popupListItem3Desktop.innerHTML = [projects[0].popupLngDesktop[2]];
 
   const popupListItem4Desktop = document.createElement('li');
-  popupListItem4Desktop.innerHTML = [projects[1].popupLngDesktop[3]];
+  popupListItem4Desktop.innerHTML = [projects[0].popupLngDesktop[3]];
 
   const popupListItem5Desktop = document.createElement('li');
-  popupListItem5Desktop.innerHTML = [projects[1].popupLngDesktop[4]];
+  popupListItem5Desktop.innerHTML = [projects[0].popupLngDesktop[4]];
 
   const popupListItem6Desktop = document.createElement('li');
-  popupListItem6Desktop.innerHTML = [projects[1].popupLngDesktop[5]];
+  popupListItem6Desktop.innerHTML = [projects[0].popupLngDesktop[5]];
 
   popupListDesktop.appendChild(popupListItem1Desktop);
   popupListDesktop.appendChild(popupListItem2Desktop);
