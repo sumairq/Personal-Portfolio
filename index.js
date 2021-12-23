@@ -363,7 +363,7 @@ const small = document.querySelector('small');
 
 form.addEventListener('submit', (event) => {
   if (email.validity.valueMissing) {
-    small.innerHTML = 'You need to enter an e-mail address';
+    small.innerHTML = 'Please enter an e-mail address';
     event.preventDefault();
     small.classList.remove('collapse');
   } else if (email.validity.typeMismatch) {
