@@ -181,7 +181,7 @@ for (let i = 0; i < 6; i += 1) {
   PROJECT_SECTION.appendChild(EACH_PROJECT);
 }
 
-for (let i = 1; i < 2; i += 1) {
+for (let i = 1; i < 3; i += 1) {
   const BUTTON_LINK = document.querySelectorAll('#button-link');
   const POPUP_CONTAINER = document.querySelector('#popup_container');
 
