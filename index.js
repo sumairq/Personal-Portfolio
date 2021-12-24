@@ -364,17 +364,15 @@ const small = document.querySelector('small');
 form.addEventListener('submit', (event) => {
   if (email.validity.valueMissing) {
     small.innerHTML = 'Please enter an e-mail address';
-    event.preventDefault();
     small.classList.remove('collapse');
   } else if (email.validity.typeMismatch) {
     small.innerHTML = 'E-mail address needs to be valid (example@org.com)';
-    event.preventDefault();
     small.classList.remove('collapse');
   } else if (email.validity.patternMismatch) {
     small.innerHTML = 'E-mail address needs to be in lower case';
-    event.preventDefault();
     small.classList.remove('collapse');
   }
+  event.preventDefault();
 });
 
 email.addEventListener('click', () => {
